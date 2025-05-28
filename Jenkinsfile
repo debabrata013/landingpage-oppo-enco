@@ -5,6 +5,9 @@ pipeline {
         IMAGE_NAME = 'debabratap/landingpage-oppo-enco:latest'
         DOCKER_HUB_CREDENTIALS = 'dockerhub-creds-id'
     }
+tools {
+    nodejs 'node-24' // This must match the name you gave in Jenkins config
+  }
 
     stages {
        

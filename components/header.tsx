@@ -33,7 +33,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <span className="text-2xl font-bold text-white">OPPO</span>
-            <span className="text-blue-500 ml-1 text-2xl font-bold">AUDIO</span>
+            <span className="text-blue-500 ml-1 text-2xl font-bold"> Landing page</span>
           </div>
 
           <nav className="hidden md:flex items-center space-x-8">

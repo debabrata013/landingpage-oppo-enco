@@ -7,11 +7,7 @@ pipeline {
     }
 
     stages {
-        stage('Checkout Code') {
-            steps {
-                git credentialsId: 'github-creds-id', url: 'https://github.com/debabrata013/landingpage-oppo-enco.git'
-            }
-        }
+       
 
         stage('Install Dependencies') {
             steps {
